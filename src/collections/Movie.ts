@@ -4,7 +4,7 @@ export const Movie: CollectionConfig = {
   slug: 'movies',
   access: {
     read: ({ req }) => Boolean(req.user),
-    create: ({ req }) => req.user?.role === 'admin',
+    create: ({ req }) => false,
     update: ({ req }) => req.user?.role === 'admin',
     delete: ({ req }) => req.user?.role === 'admin',
   },
