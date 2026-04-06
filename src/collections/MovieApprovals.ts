@@ -55,8 +55,8 @@ export const MovieApprovals: CollectionConfig = {
           collection: 'movies',
           data: {
             title: doc.title,
-            description: doc.movieData?.description,
-            releaseDate: doc.movieData?.releaseDate,
+            description: doc.description,
+            releaseDate: doc.releaseDate,
           },
           req,
         })
