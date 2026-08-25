@@ -3,13 +3,10 @@
 > An editorial approval workflow built on Payload CMS 3 — editors submit, admins review, approved titles publish.
 
 <p align="left">
-  <a href="https://movie-approval-cms.vercel.app"><img src="https://img.shields.io/badge/Live%20demo-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
   <img src="https://img.shields.io/badge/Payload%20CMS%203-000?style=for-the-badge&logo=payloadcms&logoColor=white" alt="Payload CMS 3" />
   <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
-
-**[▶ Try it live](https://movie-approval-cms.vercel.app)**
 
 Nothing goes live on a whim: an editor submits a movie for approval, an admin approves, rejects or
 requests changes, and only on approval is a record created in the **Movies** collection. Roles decide
